@@ -17,6 +17,9 @@ AllCops:
 RedundantBlockCall:
   Enabled: false
 
+BlockLength:
+  Enabled: false
+
 # Avoid more than `Max` levels of nesting.
 BlockNesting:
   Max: 2
@@ -60,6 +63,9 @@ Encoding:
 EndAlignment:
   AlignWith: variable
 
+GuardClause:
+  Enabled: false
+
 # Enforce Ruby 1.8-compatible hash syntax
 HashSyntax:
   EnforcedStyle: hash_rockets
@@ -73,6 +79,9 @@ LineLength:
 MethodLength:
   CountComments: false
   Max: 53
+
+MethodMissing:
+  Enabled: false
 
 MultilineOperationIndentation:
   EnforcedStyle: indented
